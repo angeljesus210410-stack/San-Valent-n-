@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo San Valentín</title>
+    <style>
+        /* Tu CSS aquí */
+        .San_Valentin {
+            position: absolute;
+            width: 90%;
+            font-size: 2rem;
+            font-family: "Te Amo", sans-serif; /* Añade una fuente genérica */
+            height: var(--letter-love);
+            transform: translateX(-50%);
+            background: var(--letter);
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4e8e8; /* Un fondo suave */
+        }
+        :root {
+            --letter-love: 100px; /* Define un valor para la variable */
+            --letter: #e44d26; /* Define un valor para la variable */
+        }
+    </style>
+</head>
+<body>
+    <div class="San_Valentin">
+        ¡Feliz San Valentín!
+    </div>
+</body>
+</html>
